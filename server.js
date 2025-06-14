@@ -17,7 +17,7 @@ process.on('uncaughtException', (err) => {
 });
 const app = require('./app');
 app.use(cors({
-  origin: 'http://127.0.0.1:5173/', // Replace this with the origin of your frontend
+  origin: 'https://fsrecon.itera.ac.id', // Replace this with the origin of your frontend
   credentials: true,
 }));
 
